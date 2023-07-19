@@ -1,2 +1,2 @@
-g++ raytrace.cpp -o raytrace -Iinclude -Llib/x64 -LC:/Windows/ -lfreeglut -lmingw32 -lopengl32 -lgdi32 -luser32
+g++ raytrace.cpp 
 

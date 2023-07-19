@@ -46,9 +46,6 @@ Optimize parameters, algorithms, or data structures as necessary.
 #include <iostream>
 #include <cmath>
 #include <fstream>
-#include <GL/gl.h>     // For core OpenGL functions
-#include <GL/glu.h>    // For OpenGL Utility Library (GLU) functions
-#include <GL/glut.h>   // For windowing functions (if using freeglut or glut) 
 #include "vector3.h"
 
 class Ray{
@@ -114,10 +111,6 @@ class Ray{
                 Vector3 normal = U.cross(V);
                 normal.normalize();
                 return normal;
-            }
-
-            bool intersect(const Ray& ray) const {
-                
             }
     };
 
